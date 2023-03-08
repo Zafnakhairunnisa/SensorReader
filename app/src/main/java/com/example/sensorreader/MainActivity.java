@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder sensorText = new StringBuilder();
 
         for (Sensor currentSensor : sensorList) {
-            sensorText.append(currentSensor.getName()).append(System.getProperty("line.seperator"));
+            sensorText.append(currentSensor.getName()).append(System.getProperty("line.separator"));
 
         }
 
